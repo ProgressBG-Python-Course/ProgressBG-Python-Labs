@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>user name: <input type="text"></label>
+        <button>Submit</button>
+        <div class="output"></div>
+    </div>
+
+    <script>
+        const btnSubmit = document.querySelector('button')
+        const userNameInput = document.querySelector('input')
+        const output = document.querySelector('.output')
+
+        function onClick() {
+            const userName = userNameInput.value;
+            output.innerHTML = userName
+        }
+
+        function onKeyPress(e) {
+            if(e.key==='a'){
+                output.innerHTML+= e.key
+            }
+        }
+
+        btnSubmit.addEventListener('click', onClick)
+        userNameInput.addEventListener('keypress', onKeyPress)
+    </script>
+</body>
+</html>

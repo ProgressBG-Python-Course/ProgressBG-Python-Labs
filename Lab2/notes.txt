@@ -1,0 +1,4 @@
+Data Type: integer (цяло число), float(реално число), complex
+
+integer literal example: 4
+float literal example: 3.14

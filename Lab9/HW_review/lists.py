@@ -23,6 +23,6 @@ def find_similar(list_of_numbers):
     similar_lists = []
 
     for idx in range(0, len(list_of_numbers) - 1):
-        if list_of_numbers[idx] == list_of_numbers[idx + 1]:
+        while list_of_numbers[idx] == list_of_numbers[idx + 1]:
             buffer = []
             # buffer.append()

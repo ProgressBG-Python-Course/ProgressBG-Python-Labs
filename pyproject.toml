@@ -1,0 +1,26 @@
+[tool.ruff]
+# Enable flake8-bugbear rules
+lint.select = ["E", "F", "B"]
+
+# Line length
+line-length = 88
+
+# Enable auto-fixing
+fixable = ["ALL"]
+
+# Exclude files and directories
+exclude = [
+    ".git",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".venv",
+    "__pycache__",
+]
+
+[tool.ruff.format]
+# Use double quotes for strings
+quote-style = "double"
+# Use spaces for indentation
+indent-style = "space"
+# Enable naming convention rules
+# select = ["N"]

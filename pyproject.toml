@@ -1,26 +1,42 @@
-[tool.ruff]
-# Enable flake8-bugbear rules
-lint.select = ["E", "F", "B"]
+# [tool.ruff]
+# # Set the maximum allowed line length to 80 characters
+# line-length = 80
 
-# Line length
-line-length = 88
+# # Select which rules to enable
+# # "ALL" enables every single rule that Ruff supports
+# select = [
+#     "ALL",
+# ]
 
-# Enable auto-fixing
-fixable = ["ALL"]
+# # Specify which rules to ignore
+# ignore = [
+#     ### modules
+#     "ANN",     # Ignore all annotation rules (type hints checking)
 
-# Exclude files and directories
-exclude = [
-    ".git",
-    ".mypy_cache",
-    ".ruff_cache",
-    ".venv",
-    "__pycache__",
-]
+#     ### specific rules
+#     "D100",   # Ignore missing module docstrings (top-level docstrings in files)
+#     "T201",   # Ignore warnings about print statements (useful for debugging/learning)
 
-[tool.ruff.format]
-# Use double quotes for strings
-quote-style = "double"
-# Use spaces for indentation
-indent-style = "space"
-# Enable naming convention rules
-# select = ["N"]
+# ]
+
+# # Exclude files and directories from being checked
+# # These are typically system directories or generated code
+# exclude = [
+#     ".git",
+#     ".mypy_cache",
+#     ".ruff_cache",
+#     "venv",
+#     ".venv",
+#     "__pycache__",
+# ]
+
+# # Configuration for the linting component of Ruff
+# [tool.ruff.lint]
+# # Allow Ruff to automatically fix all fixable violations
+# # This makes it easy to clean up code with a single command
+# fixable = ["ALL"]
+
+# # Configuration for the formatting component of Ruff
+# [tool.ruff.format]
+# # Use double quotes for strings (similar to Black's default style)
+# quote-style = "double"

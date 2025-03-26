@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Maria",
+        "age": 23,
+        "smoker":true,
+        "skills":["Pyhton", "JS"]
+    },
+    {
+        "name": "Pesho",
+        "age": 32,
+        "smoker":false,
+        "skills":["JSON", "C"]
+    }
+]
+
+

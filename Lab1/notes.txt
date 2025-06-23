@@ -1,0 +1,18 @@
+VSCode
+
+
+Open Command Pallete: CTRL+SHIFT+P
+
+
+Python Versioning:
+ 3.5.5
+
+
+ Compiled VS INterpeted Languages:
+
+ Compiled: C++, C#, Java, Rust
+ Intrpreted: Python, JavaScript, PHP
+
+
+IDE: Integrated Deveopment Environment: PyCharm; VS
+Code Editor: VSCode

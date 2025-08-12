@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+   <transaction type="deposit" amount="100"></transaction>
+   <transaction type="withdraw" amount="300"></transaction>
+</transactions>
+
+<!-- <el_name atr1="value1" atr2="value2">content</el_name> -->

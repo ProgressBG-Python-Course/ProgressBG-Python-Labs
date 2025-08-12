@@ -1,0 +1,6 @@
+Regular Expression (shortly Regex) is a string pattern, which can match or not other strings.
+You can think of it a as a super-powered "Find" (Ctrl+F or Cmd+F) feature. Instead of just finding literal text (like "cat"), you can define complex patterns (like "find any three-letter word starting with 'c' and ending with 't'"
+Regular Expressions are coming from the regular language defined by Kleene in the early 1950s.
+Nowadays, almost all programming languages implements the concept of Regex.
+Also text editors (like VSCode), IDEs, Databases, CLI toos and more implements them
+Example - using regex in Python:

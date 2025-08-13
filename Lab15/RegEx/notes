@@ -1,0 +1,11 @@
+[4-8] => 4,5,6,7,8
+
+a*=>"","a","aa", "aaa",
+
+ta*t => "tt", "tat", "taat"
+
+"ca(t|d)og" =>"catog", "cadog"
+"ca[td]og" =>"catog", "cadog"
+
+
+"(cat)|(dog)"

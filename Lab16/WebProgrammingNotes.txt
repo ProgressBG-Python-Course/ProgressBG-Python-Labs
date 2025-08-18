@@ -1,0 +1,11 @@
+URLs:
+http://127.0.0.1:8080/
+http://94.234.34.12:8080/
+https://94.234.34.12:8000
+https://progressbg.net:443/
+https://185.45.67.70:443/
+https://progressbg-python-course.github.io/ProgressBG-Python-Slides/pages/themes/WebProgramming/images/Client-Server_Communication.png
+
+DNS (Domain Name Service):
+iva.com: 94.234.34.12
+progressbg.net: 185.45.67.70
